@@ -6,6 +6,14 @@
 Moda provides an interface for evaluating models on either univariate or multi-category time-series datasets. It further allows the user to add additional models using a scikit-learn style API. All models provided in Moda were adapted to a multi-category scenario using by wrapping a univariate model to run on multiple categories. It further allows the evaluation of models using either a train/test split or a time-series cross validation.
 
 ## Installation
+
+build locally via wheel
+
+`python setup.py bdist_wheel` 
+`python -m pip install ./dist/moda-0.2.2-py3-none-any.whl --user`
+
+
+Or use old version from pip repository
 `pip install moda`
 
 ## Usage
